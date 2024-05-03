@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Log
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is an e-commerce dashboard CMS developed with Next.js, based on a slightly modified version of the tutorial by Code With Antonio [Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023](https://www.youtube.com/watch?v=5miHyP6lExg&t=16208s).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Initial Plan for Tools
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Next.js
+2. Drizzle
+3. Postgres from Docker
+4. Shadcn
+5. Auth JS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tool Selection
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Drizzle:** Chosen over Prisma for its suitability to project needs.
+- **Postgres from Docker:** Opted for Dockerized Postgres instead of Planetscale due to the latter's cancellation of free tiers.
+- **Auth JS:** Initially considering Auth JS for authentication and authorization. Clerk will be an alternative option if Auth JS proves to be overly complex.
 
-## Learn More
+Note: Other databases such as Supabase or Neon are free but may have limitations, such as storage limits or inactivity after a certain period.
 
-To learn more about Next.js, take a look at the following resources:
+## Updates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[2024-05-03]**: Created initial project log structure.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
